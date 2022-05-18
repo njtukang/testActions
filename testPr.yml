@@ -1,0 +1,11 @@
+name: test pr
+on:
+  push:
+    branches:
+      - main
+      - dev
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is master"
